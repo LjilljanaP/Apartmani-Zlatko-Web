@@ -1,7 +1,15 @@
 import { getRequestConfig } from 'next-intl/server';
 
-export default getRequestConfig(async ({ locale }) => {
+export default getRequestConfig(async ({ requestLocale }) => {
+  // 1. Pričekaj da se locale razriješi
+  const locale = await requestLocale;
+
+  // 2. Provjeri je li locale uopće stigao (fallback na 'hr')
+  const safeLocale = locale || 'hr';
+
   return {
-    messages: (await import(`../messages/${locale}.json`)).default
+    // 3. MORAŠ vratiti i locale i messages
+    locale: safeLocale,
+    messages: (await import(`../messages/${safeLocale}.json`)).default
   };
 });
