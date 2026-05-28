@@ -1,0 +1,32 @@
+module.exports = [
+"[project]/messages/en.json.[json].cjs [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+module.exports = {
+    "Hero": {
+        "title": "Apartments Zlatko",
+        "subtitle": "Comfortable accommodation for your perfect vacation by the sea.",
+        "cta": "Contact us"
+    },
+    "About": {
+        "title": "Welcome",
+        "p1": "We offer modern and fully equipped apartments, ideal for families, couples, and friends looking to enjoy their vacation on the Adriatic coast.",
+        "p2": "The proximity to the beach, restaurants, and local attractions makes our apartments the perfect choice for your stay."
+    },
+    "Contact": {
+        "title": "Contact & Location",
+        "subtitle": "Get in touch with us for reservations and information, or come visit us.",
+        "formName": "Your name",
+        "formEmail": "Your email",
+        "formMessage": "Message",
+        "formSubmit": "Send inquiry"
+    },
+    "Apartments": {
+        "title": "Apartment Gallery",
+        "subtitle": "Take a look at our accommodation units.",
+        "description": "Modern apartment with a pool."
+    }
+};
+}),
+];
+
+//# sourceMappingURL=messages_en_json_%5Bjson%5D_cjs_13rph_m._.js.map

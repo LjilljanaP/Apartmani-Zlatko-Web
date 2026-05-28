@@ -1,0 +1,32 @@
+module.exports = [
+"[project]/messages/cs.json.[json].cjs [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+module.exports = {
+    "Hero": {
+        "title": "Apartmány Zlatko",
+        "subtitle": "Příjemné ubytování pro vaši perfektní dovolenou u moře.",
+        "cta": "Kontaktujte nás"
+    },
+    "About": {
+        "title": "Vítejte",
+        "p1": "Nabízíme moderní a plně vybavené apartmány, které jsou ideální pro rodiny, páry i přátele, kteří si chtějí užít dovolenou na Jadranu.",
+        "p2": "Blízkost pláže, restaurací a místních zajímavostí dělá z našich apartmánů skvělou volbu pro váš pobyt."
+    },
+    "Contact": {
+        "title": "Kontakt a Lokalizace",
+        "subtitle": "Oozvěte se nám pro rezervace a informace, nebo nás přijďte navštívit.",
+        "formName": "Vaše jméno",
+        "formEmail": "Váš e-mail",
+        "formMessage": "Zpráva",
+        "formSubmit": "Odeslat dotaz"
+    },
+    "Apartments": {
+        "title": "Galerie apartmánů",
+        "subtitle": "Prohlédněte si naše ubytovací jednotky.",
+        "description": "Moderní apartmán s bazénem."
+    }
+};
+}),
+];
+
+//# sourceMappingURL=messages_cs_json_%5Bjson%5D_cjs_0w~2cw-._.js.map
