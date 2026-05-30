@@ -96,6 +96,7 @@ function ApartmentWebsite({ params }) {
             images: [
                 "/b3.jpg",
                 "/b1.jpg",
+                "/b5.jpg",
                 "/b2.jpg",
                 "/b4.jpg"
             ]
@@ -103,7 +104,11 @@ function ApartmentWebsite({ params }) {
         {
             name: 'Apartman C',
             images: [
-                "/c1.jpg"
+                "/c2.jpg",
+                "/c6.jpg",
+                "/c3.jpg",
+                "/c4.jpg",
+                "/c5.jpg"
             ]
         },
         {

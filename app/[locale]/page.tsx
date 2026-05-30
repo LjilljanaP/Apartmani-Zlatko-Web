@@ -44,8 +44,8 @@ export default function ApartmentWebsite({ params }: { params: Promise<{ locale:
   // Podaci o apartmanima i tvojim slikama
   const apartments = [
     { name: 'Apartman A', images: ["/a1.jpg", "/a2.jpg"] },
-    { name: 'Apartman B', images: ["/b3.jpg", "/b1.jpg", "/b2.jpg", "/b4.jpg"] },
-    { name: 'Apartman C', images: ["/c1.jpg"] },
+    { name: 'Apartman B', images: ["/b3.jpg", "/b1.jpg", "/b5.jpg", "/b2.jpg", "/b4.jpg"] },
+    { name: 'Apartman C', images: ["/c2.jpg", "/c6.jpg", "/c3.jpg", "/c4.jpg", "/c5.jpg"]},
     { name: 'Apartman D', images: ["/d1.jpg", "/d2.jpg", "/d3.jpg", "/d4.jpg"] },
     { name: 'Apartman E', images: ["/e1.jpg", "/e2.jpg"] },
     { name: 'Apartman F', images: ["/f1.jpg", "/f2.jpg"] },
