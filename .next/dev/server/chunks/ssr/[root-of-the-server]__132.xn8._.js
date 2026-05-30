@@ -90,8 +90,10 @@ function ApartmentWebsite({ params }) {
         {
             name: 'Apartman B',
             images: [
-                "/a1.jpg",
-                "/a2.jpg"
+                "/b3.jpg",
+                "/b1.jpg",
+                "/b2.jpg",
+                "/b4.jpg"
             ]
         },
         {
@@ -774,7 +776,7 @@ function ApartmentWebsite({ params }) {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                 className: "border-t border-gray-200 py-8 text-center text-gray-500",
-                children: "© 2026 Apartmani Jadran · Sva prava pridržana"
+                children: "© 2026 Apartmani Zlatko · Sva prava pridržana"
             }, void 0, false, {
                 fileName: "[project]/app/[locale]/page.tsx",
                 lineNumber: 262,
